@@ -10,7 +10,7 @@ const div = document.getElementById("app")
 // const imgEle = document.createElement("img")
 // imgEle.src = imgSrc
 // div.appendChild(imgEle)
-// div.innerHTML += `<img src="${imgSrc}">`
+div.innerHTML += `<img src="${imgSrc}">`
 
 
 const button = document.createElement("button")
