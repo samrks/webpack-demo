@@ -10,7 +10,7 @@ module.exports = { // .exports 表示导出这个对象
   plugins: [
     new HtmlWebpackPlugin({
       title: "XDML - 写代码啦",
-      template: "src/assets/index.html"
+      template: "./src/assets/index.html"
     })
   ],
   module: {
